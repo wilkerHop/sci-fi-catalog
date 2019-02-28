@@ -1,0 +1,55 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F5F5;
+  height: 100vh; }
+
+h1 {
+  margin: 15px;
+  color: #5e94b6;
+  font-family: "liberator";
+  font-size: 8vh;
+  font-weight: normal;
+  margin: 0.5em auto;
+  text-transform: uppercase;
+  text-align: center; }
+
+.movie-list {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: inherit; }
+  .movie-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5; }
+  .movie-list::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+    margin-bottom: 2px; }
+  .movie-list::-webkit-scrollbar-thumb {
+    background-color: #000000; }
+  .movie-list__movie {
+    display: flex;
+    flex-direction: row; }
+    .movie-list__movie > * {
+      margin: 5px 15px; }
+    .movie-list__movie img {
+      width: 50vh; }
+    .movie-list__movie__rating {
+      font-size: 10vh; }
+      .movie-list__movie__rating i {
+        font-size: 8vh; }
+    .movie-list__movie__year {
+      font-size: 94px; }
+    .movie-list__movie__runtime {
+      font-size: 8vh; }
+    .movie-list__movie .info-wrapper {
+      min-width: 363.33px;
+      display: flex;
+      flex-direction: column; }
+
+.grit {
+  -webkit-mask-image: url("http://support.nature.org/images/earth/assets/grit.png");
+  mask-image: url("http://support.nature.org/images/earth/assets/grit.png"); }
+
+/*# sourceMappingURL=styles.css.map */

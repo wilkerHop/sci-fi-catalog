@@ -1,0 +1,58 @@
+{
+    "id": 6507,
+    "url": "https://yts.am/movie/logan-2017",
+    "imdb_code": "tt3315342",
+    "title": "Logan",
+    "title_english": "Logan",
+    "title_long": "Logan (2017)",
+    "slug": "logan-2017",
+    "year": 2017,
+    "rating": 8.1,
+    "runtime": 137,
+    "genres": [
+        "Action",
+        "Drama",
+        "Sci-Fi",
+        "Thriller"
+    ],
+    "summary": "In 2029 the mutant population has shrunken significantly due to genetically modified plants designed to reduce mutant powers and the X-Men have disbanded. Logan, whose power to self-heal is dwindling, has surrendered himself to alcohol and now earns a living as a chauffeur. He takes care of the ailing old Professor X whom he keeps hidden away. One day, a female stranger asks Logan to drive a girl named Laura to the Canadian border. At first he refuses, but the Professor has been waiting for a long time for her to appear. Laura possesses an extraordinary fighting prowess and is in many ways like Wolverine. She is pursued by sinister figures working for a powerful corporation; this is because they made her, with Logan's DNA. A decrepit Logan is forced to ask himself if he can or even wants to put his remaining powers to good use. It would appear that in the near-future, the times in which they were able put the world to rights with razor sharp claws and telepathic powers are now over.",
+    "description_full": "In 2029 the mutant population has shrunken significantly due to genetically modified plants designed to reduce mutant powers and the X-Men have disbanded. Logan, whose power to self-heal is dwindling, has surrendered himself to alcohol and now earns a living as a chauffeur. He takes care of the ailing old Professor X whom he keeps hidden away. One day, a female stranger asks Logan to drive a girl named Laura to the Canadian border. At first he refuses, but the Professor has been waiting for a long time for her to appear. Laura possesses an extraordinary fighting prowess and is in many ways like Wolverine. She is pursued by sinister figures working for a powerful corporation; this is because they made her, with Logan's DNA. A decrepit Logan is forced to ask himself if he can or even wants to put his remaining powers to good use. It would appear that in the near-future, the times in which they were able put the world to rights with razor sharp claws and telepathic powers are now over.",
+    "synopsis": "In 2029 the mutant population has shrunken significantly due to genetically modified plants designed to reduce mutant powers and the X-Men have disbanded. Logan, whose power to self-heal is dwindling, has surrendered himself to alcohol and now earns a living as a chauffeur. He takes care of the ailing old Professor X whom he keeps hidden away. One day, a female stranger asks Logan to drive a girl named Laura to the Canadian border. At first he refuses, but the Professor has been waiting for a long time for her to appear. Laura possesses an extraordinary fighting prowess and is in many ways like Wolverine. She is pursued by sinister figures working for a powerful corporation; this is because they made her, with Logan's DNA. A decrepit Logan is forced to ask himself if he can or even wants to put his remaining powers to good use. It would appear that in the near-future, the times in which they were able put the world to rights with razor sharp claws and telepathic powers are now over.",
+    "yt_trailer_code": "Div0iP65aZo",
+    "language": "English",
+    "mpa_rating": "R",
+    "background_image": "https://yts.am/assets/images/movies/logan_2017/background.jpg",
+    "background_image_original": "https://yts.am/assets/images/movies/logan_2017/background.jpg",
+    "small_cover_image": "https://yts.am/assets/images/movies/logan_2017/small-cover.jpg",
+    "medium_cover_image": "https://yts.am/assets/images/movies/logan_2017/medium-cover.jpg",
+    "large_cover_image": "https://yts.am/assets/images/movies/logan_2017/large-cover.jpg",
+    "state": "ok",
+    "torrents": [
+        {
+            "url": "https://yts.am/torrent/download/A52324E4506C66CB30067BE13EE366C225BC4D70",
+            "hash": "A52324E4506C66CB30067BE13EE366C225BC4D70",
+            "quality": "720p",
+            "type": "bluray",
+            "seeds": 368,
+            "peers": 52,
+            "size": "1014.33 MB",
+            "size_bytes": 1063602094,
+            "date_uploaded": "2017-05-22 04:27:42",
+            "date_uploaded_unix": 1495420062
+        },
+        {
+            "url": "https://yts.am/torrent/download/1AB2CE4D62A9A46E91A3A3097BCEBD6248978D40",
+            "hash": "1AB2CE4D62A9A46E91A3A3097BCEBD6248978D40",
+            "quality": "1080p",
+            "type": "bluray",
+            "seeds": 494,
+            "peers": 65,
+            "size": "2.09 GB",
+            "size_bytes": 2244120412,
+            "date_uploaded": "2017-05-22 06:55:05",
+            "date_uploaded_unix": 1495428905
+        }
+    ],
+    "date_uploaded": "2017-05-22 04:27:42",
+    "date_uploaded_unix": 1495420062
+}

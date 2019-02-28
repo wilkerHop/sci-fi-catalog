@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Movies</title>
+</head>
+
+<body>
+    <div id="app" class="grit">
+        <h1 class="grit">{{ title }}</h1>
+
+        <div class="movie-list grit">
+            <div class="movie-list__movie grit" v-for="movie in movies" :movie="movie">
+                <img :src="movie.large_cover_image" :alt="movie.title_long + ' cover'">
+                <div class="info-wrapper grit">
+                    <h4 class="grit">{{ movie.title }}</h4>
+                    <span class="movie-list__movie__rating grit">
+                        {{ movie.rating }} <i class="material-icons">star</i>
+                    </span>
+                    <span class="movie-list__movie__year grit">
+                        {{ movie.year }}
+                    </span>
+                    <span class="movie-list__movie__runtime grit">
+                        {{ movie.runtime }} minutes
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

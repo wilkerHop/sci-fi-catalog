@@ -22,7 +22,16 @@
 
         <div class="movie-list grit">
             <div class="movie-list__movie grit" v-for="movie in movies" :movie="movie">
-                <img :src="movie.large_cover_image" :alt="movie.title_long + ' cover'">
+                <div class="flip-container">
+                    <div class="flipper" onclick="this.classList.toggle('flipped')">
+                        <div class="front">
+                            <img :src="movie.large_cover_image" :alt="movie.title_long + ' cover'">
+                        </div>
+                        <div class="back">
+                            Back
+                        </div>
+                    </div>
+                </div>
                 <div class="info-wrapper grit">
                     <h4 class="grit">{{ movie.title }}</h4>
                     <span class="movie-list__movie__rating grit">

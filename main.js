@@ -26,7 +26,8 @@ const app = new Vue({
         howManyMovies() {
             const movieCardSize = 658.328
             const app = document.querySelector('#app')
-            return Math.floor(Math.floor(app.offsetWidth / movieCardSize)) + 1
+            const limit = Math.floor(Math.floor(app.offsetWidth / movieCardSize)) + 1
+            return limit < 2 ? 2 : limit
         },
         async getNextPage() {
             if (this.page == this.totalPages) return

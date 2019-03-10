@@ -28,7 +28,10 @@
                             <img :src="movie.large_cover_image" :alt="movie.title_long + ' cover'">
                         </div>
                         <div class="back">
-                            Back
+                            <div v-for="torrent in movie.torrents" :movie="movie">
+                                <span>{{torrent.quality}}-{{torrent.type}}</span>
+                                <span> {{torrent.size}}</span>
+                            </div>
                         </div>
                     </div>
                 </div>

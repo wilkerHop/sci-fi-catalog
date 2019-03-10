@@ -57,7 +57,8 @@ h1 {
   -moz-perspective: 1000;
   -ms-perspective: 1000;
   -o-perspective: 1000;
-  perspective: 1000; }
+  perspective: 1000;
+  width: 65vh; }
 
 .flipped {
   -webkit-transform: rotateY(180deg);
@@ -66,7 +67,7 @@ h1 {
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg); }
 
-.flip-container, .front, .back {
+.front, .back {
   width: 50vh; }
 
 .flipper {

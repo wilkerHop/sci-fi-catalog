@@ -41,7 +41,8 @@ const app = new Vue({
             localStorage.setItem('movies', JSON.stringify(this.movies))
 
             this.page = data.page_number
-        }
+        },
+        magnetURL({torrent_hash}){}
     },
     mounted() {
         this.apiURL += '&limit=' + this.howManyMovies()
